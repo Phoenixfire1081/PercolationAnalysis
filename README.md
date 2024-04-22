@@ -78,6 +78,11 @@ percolationObj.processThresholds()
 filename = 'Percolation_threshold.txt'
 _min, _max, _mean = percolationObj.plotPercolation(filename)
 ```
+Running the above script on testData.bin produces the following loglog plot:
+
+![Screenshot](Percolation.png)
+
+The region of percolation transition is clearly visible. The plot highlights the thresholds corresponding to the maximum slope of $V_{max}/V$. Normally, the mean value is used. However, the minimum and maximum are also acceptable choices of threshold. 
 
 ## References
 
