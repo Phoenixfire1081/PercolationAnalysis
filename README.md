@@ -4,6 +4,24 @@ This idea originated in the work of Moisy & Jiménez 2004, JFM [1] while inspect
 
 For wall-bounded flows, a necessary condition is that the scalar indicator has to be normalized with its root-mean-square over wall-parallel planes to ensure that a single, global threshold can be chosen to highlight the structures uniformly (see eq 3.1 of [2]). This was further explored for other scalar indicators of coherent structures such as low-and high-speed streaks, sweeps, ejections, shear layers, backs, and bulges in the work of Harikrishnan et al., 2021 [3].
 
+If you use this code for your work, please cite our arXiv preprint [4]:
+```
+@article{harikrishnan2021geometry,
+  title={Geometry and organization of coherent structures in stably stratified atmospheric boundary layers},
+  author={Harikrishnan, Abhishek and Ansorge, Cedrick and Klein, Rupert and Vercauteren, Nikki},
+  journal={arXiv preprint arXiv:2110.02253},
+  year={2021}
+}
+```
+
+## Installation
+
+The code is available as a package from PyPI: https://pypi.org/project/percolationAnalysis/
+
+```
+pip install percolationAnalysis
+```
+
 ## Example - Calculating the percolation threshold from the given test data
 
 Download testData.bin from the GitHub website first.
