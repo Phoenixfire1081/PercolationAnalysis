@@ -11,7 +11,7 @@ Download testData.bin from the GitHub website first.
 ```
 import numpy as np
 import array
-from wrapper_percolation import percolationAnalysis
+from percolationAnalysis import percolationAnalysis
 
 # Select file to run tests on
 _filenameRead = 'testData.bin'
