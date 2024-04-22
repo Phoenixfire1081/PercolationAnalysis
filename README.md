@@ -16,8 +16,12 @@ If you use this code for your work, please cite our arXiv preprint [4]:
 
 ## Installation
 
-The code is available as a package from PyPI: https://pypi.org/project/percolationAnalysis/
+The code is available as a package from PyPI: https://pypi.org/project/percolationAnalysis/ and acts as a wrapper to the extraction script: https://github.com/Phoenixfire1081/CoherentStructureExtraction. First, install the latter script,
 
+```
+pip install extractstructuresMC
+```
+followed by,
 ```
 pip install percolationAnalysis
 ```
